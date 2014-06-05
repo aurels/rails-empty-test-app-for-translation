@@ -4,6 +4,5 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def root
-    render :text => _("Hi kids. Do you like violence ?")
   end
 end

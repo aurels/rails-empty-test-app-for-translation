@@ -1,0 +1,23 @@
+<p><%= _("Hi kids. Do you like violence ?") %></p>
+
+<p><%= _("%{name} is dead") % { name: 'Dr Dre' } %></p>
+
+<p><%= n_("Apple", "%{num} Apples", 1) %></p>
+<p><%= n_(["Apple", "%{num} Apples"], 1) %></p>
+<p><%= n_("Apple", "%{num} Apples", 3) %></p>
+<p><%= n_(["Apple", "%{num} Apples"], 3) %></p>
+
+
+<p><%= p_("Printer", "Open") %> — <%= p_("File", "Open") %></p>
+<p><%= s_("Printer|Open") %> — <%= s_("File|Open") %></p>
+
+<!--
+s_("Printer|Open") => "Öffnen" #translation found
+s_("Printer|Open") => "Open"   #translation not found
+
+np_("Fruit", "Apple", "%{num} Apples", 3)
+ns_("Fruit|Apple","%{num} Apples", 3)
+
+np_(["Fruit","Apple","%{num} Apples"], 3)
+ns_(["Fruit|Apple","%{num} Apples"], 3)
+-->
