@@ -1,7 +1,5 @@
 #!/bin/sh
 
 rm -r config/locales/gettext/
-rm config/locales/localization.de.yml
-rm config/locales/localization.fr.yml
-rm config/locales/translation.de.yml
-rm config/locales/translation.fr.yml
+rm config/locales/localization.*.yml
+rm config/locales/translation.*.yml

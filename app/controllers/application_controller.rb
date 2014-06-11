@@ -4,5 +4,8 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def root
+    if params[:locale]
+      I18n.locale = params[:locale]
+    end
   end
 end

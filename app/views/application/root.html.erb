@@ -2,17 +2,17 @@
 
 <p><%= _("%{name} is dead") % { name: 'Dr Dre' } %></p>
 
-<p><%= n_("Apple", "%{num} Apples", 1) %></p>
-<p><%= n_(["Apple", "%{num} Apples"], 1) %></p>
-<p><%= n_("Apple", "%{num} Apples", 3) %></p>
-<p><%= n_(["Apple", "%{num} Apples"], 3) %></p>
+<p><%= n_("Apple", "%{num} Apples", 1)   % { :num => 1 } %></p>
+<p><%= n_(["Apple", "%{num} Apples"], 1) % { :num => 1 } %></p>
+<p><%= n_("Apple", "%{num} Apples", 3)   % { :num => 3 } %></p>
+<p><%= n_(["Apple", "%{num} Apples"], 3) % { :num => 3 } %></p>
 
 
 <p><%= p_("Printer", "Open") %> — <%= p_("File", "Open") %></p>
 <p><%= s_("Printer|Open") %> — <%= s_("File|Open") %></p>
 
-<p><%= np_("Fruit", "Apple", "%{num} Apples", 3) % { :num => 3} %></p>
-<p><%= ns_("Fruit|Apple", "%{num} Apples", 3) % { :num => 3} %></p>
+<p><%= np_("Fruit", "Apple", "%{num} Apples", 3) % { :num => 3 } %></p>
+<p><%= ns_("Fruit|Apple", "%{num} Apples", 3) % { :num => 3 } %></p>
 
 <!--
 np_(["Fruit","Apple","%{num} Apples"], 3)
