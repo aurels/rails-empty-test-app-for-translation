@@ -11,13 +11,10 @@
 <p><%= p_("Printer", "Open") %> — <%= p_("File", "Open") %></p>
 <p><%= s_("Printer|Open") %> — <%= s_("File|Open") %></p>
 
+<p><%= np_("Fruit", "Apple", "%{num} Apples", 3) % { :num => 3} %></p>
+<p><%= ns_("Fruit|Apple", "%{num} Apples", 3) % { :num => 3} %></p>
+
 <!--
-s_("Printer|Open") => "Öffnen" #translation found
-s_("Printer|Open") => "Open"   #translation not found
-
-np_("Fruit", "Apple", "%{num} Apples", 3)
-ns_("Fruit|Apple","%{num} Apples", 3)
-
 np_(["Fruit","Apple","%{num} Apples"], 3)
 ns_(["Fruit|Apple","%{num} Apples"], 3)
 -->
