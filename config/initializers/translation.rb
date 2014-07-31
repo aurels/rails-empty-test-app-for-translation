@@ -1,6 +1,5 @@
-Translation.configure do |config|
-  config.api_key        = "43"
-  config.endpoint       = '192.168.1.100:3001/api'
+TranslationIO.configure do |config|
+  config.api_key        = '4a2f43dbc20c478f943c741b4240ebe7'
   config.source_locale  = 'en'
-  config.target_locales = ['fr', 'lt']
+  config.target_locales = ['fr']
 end

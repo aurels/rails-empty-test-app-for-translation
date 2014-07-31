@@ -1,0 +1,67 @@
+# Dutch translations for PACKAGE package.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: contact@translation.io\n"
+"POT-Creation-Date: 2014-06-12 13:14+0200\n"
+"PO-Revision-Date: 2014-06-12 11:53+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+
+#: ../../../app/views/application/root.html.erb:1
+msgid "Hi kids. Do you like violence ?"
+msgstr ""
+
+#: ../../../app/views/application/root.html.erb:3
+msgid "%{name} is dead"
+msgstr ""
+
+#: ../../../app/views/application/root.html.erb:5
+#: ../../../app/views/application/root.html.erb:6
+#: ../../../app/views/application/root.html.erb:7
+#: ../../../app/views/application/root.html.erb:8
+msgid "Apple"
+msgid_plural "%{num} Apples"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../../app/views/application/root.html.erb:11
+msgctxt "Printer"
+msgid "Open"
+msgstr ""
+
+#: ../../../app/views/application/root.html.erb:11
+msgctxt "File"
+msgid "Open"
+msgstr ""
+
+#: ../../../app/views/application/root.html.erb:12
+msgid "Printer|Open"
+msgstr ""
+
+#: ../../../app/views/application/root.html.erb:12
+msgid "File|Open"
+msgstr ""
+
+#: ../../../app/views/application/root.html.erb:14
+msgctxt "Fruit"
+msgid "Apple"
+msgid_plural "%{num} Apples"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../../app/views/application/root.html.erb:15
+msgid "Fruit|Apple"
+msgid_plural "%{num} Apples"
+msgstr[0] ""
+msgstr[1] ""

@@ -1,0 +1,17 @@
+---
+fr:
+  number:
+    format:
+      precision: 
+      significant: 
+      strip_insignificant_zeros: 
+    currency:
+      format:
+        precision: 
+        significant: 
+        strip_insignificant_zeros: 
+    human:
+      format:
+        precision: 
+        significant: 
+        strip_insignificant_zeros: 
